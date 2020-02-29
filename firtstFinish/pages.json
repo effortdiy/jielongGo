@@ -1,0 +1,47 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "接龙助手+",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"custom": false,
+		"selectedColor": "#ffaa00",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/home_light.png",
+			"selectedIconPath": "/static/tabbar/homefill.png",
+			"text": "发布"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/phone.png",
+			"selectedIconPath": "/static/tabbar/homefill.png",
+			"text": "问店长"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/location.png",
+			"selectedIconPath": "/static/tabbar/homefill.png",
+			"text": "查店铺"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "/static/tabbar/myfill.png",
+			"text": "个人"
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"cu-(.*)": "@/pages/component/$1/index.vue"
+		}
+	}
+}
